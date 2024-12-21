@@ -7,6 +7,14 @@
     "home_page_url": "http://Varuxn.github.io",
     "items": [
         {
+            "id": "http://varuxn.github.io/2024/12/21/Hexo-ShokaX%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/",
+            "url": "http://varuxn.github.io/2024/12/21/Hexo-ShokaX%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/",
+            "title": "Hexo-ShokaX 搭建笔记",
+            "date_published": "2024-12-21T15:23:00.822Z",
+            "content_html": "<h1 id=\"hexo-shokax-搭建笔记\"><a class=\"anchor\" href=\"#hexo-shokax-搭建笔记\">#</a> Hexo-ShokaX 搭建笔记</h1>\n<p>shokax 主题是基于 shoka 主题的，所以很多东西要参照 shoka 的文档，一些问题也需要通过查找有关 shoka 的资料处理。</p>\n<p>ShockX 的官方使用文档 <a href=\"https://docs-hexo.shokax.top/getting-started/\">https://docs-hexo.shokax.top/getting-started/</a></p>\n<p>更加详细的使用文档 <a href=\"https://docs.kaitaku.xyz/guide/theme.html\">https://docs.kaitaku.xyz/guide/theme.html</a></p>\n<p>基本上上面两个就足够解决大部分问题了</p>\n<p>一些其他的博客：</p>\n<p><a href=\"https://yuan-uyume.github.io/2023/08/26/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E9%85%8D%E7%BD%AE%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97\">https://yuan-uyume.github.io/2023/08/26/zhibei/hexo 主题 shokaX 配置踩坑指北</a></p>\n<p>下面这篇博客是配置 shoka 主题的，他有关 package.json 的是不适用的，但是相关插件的安装还是可以借鉴的</p>\n<p><a href=\"https://pigpigletsgo.github.io/hexo/shoka/%E9%85%8D%E7%BD%AEshoka%E4%B8%BB%E9%A2%98/\">https://pigpigletsgo.github.io/hexo/shoka/ 配置 shoka 主题 /</a></p>\n<h2 id=\"代码块渲染\"><a class=\"anchor\" href=\"#代码块渲染\">#</a> 代码块渲染</h2>\n<p>发现代码块还是最基础的，并没有采用 markdown-it 渲染，需要安装  <code>hexo-renderer-multi-markdown-it</code>  。</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">pnpm</span> <span class=\"token function\">install</span> hexo-renderer-multi-markdown-it</pre></td></tr></table></figure><h2 id=\"背景图片\"><a class=\"anchor\" href=\"#背景图片\">#</a> 背景图片</h2>\n<p>运行  <code>hexo s</code>  命令在本地看主页等图片是没有问题的但是向 github 上传之后出现了问题，我们可以参照使用文档里添加自己的背景图片</p>\n<p>这就不得不提到图床了，以下是一个使用 PicGo 构建图床的方法的博客：</p>\n<p><a href=\"https://blog.csdn.net/xdnxl/article/details/129466060\">https://blog.csdn.net/xdnxl/article/details/129466060</a></p>\n",
+            "tags": []
+        },
+        {
             "id": "http://varuxn.github.io/2024/12/21/VMware-WSL/",
             "url": "http://varuxn.github.io/2024/12/21/VMware-WSL/",
             "title": "关于 VMware 与 WSL 在 Win11 虚拟化的一些问题",

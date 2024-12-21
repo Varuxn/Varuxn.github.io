@@ -10,8 +10,30 @@
         </author>
         <description>Love and Freedom</description>
         <language>en</language>
-        <pubDate>Sat, 21 Dec 2024 20:47:19 +0800</pubDate>
-        <lastBuildDate>Sat, 21 Dec 2024 20:47:19 +0800</lastBuildDate>
+        <pubDate>Sat, 21 Dec 2024 23:23:00 +0800</pubDate>
+        <lastBuildDate>Sat, 21 Dec 2024 23:23:00 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://varuxn.github.io/2024/12/21/Hexo-ShokaX%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid>
+            <title>Hexo-ShokaX 搭建笔记</title>
+            <link>http://varuxn.github.io/2024/12/21/Hexo-ShokaX%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</link>
+            <pubDate>Sat, 21 Dec 2024 23:23:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;hexo-shokax-搭建笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo-shokax-搭建笔记&#34;&gt;#&lt;/a&gt; Hexo-ShokaX 搭建笔记&lt;/h1&gt;
+&lt;p&gt;shokax 主题是基于 shoka 主题的，所以很多东西要参照 shoka 的文档，一些问题也需要通过查找有关 shoka 的资料处理。&lt;/p&gt;
+&lt;p&gt;ShockX 的官方使用文档 &lt;a href=&#34;https://docs-hexo.shokax.top/getting-started/&#34;&gt;https://docs-hexo.shokax.top/getting-started/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;更加详细的使用文档 &lt;a href=&#34;https://docs.kaitaku.xyz/guide/theme.html&#34;&gt;https://docs.kaitaku.xyz/guide/theme.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;基本上上面两个就足够解决大部分问题了&lt;/p&gt;
+&lt;p&gt;一些其他的博客：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yuan-uyume.github.io/2023/08/26/zhibei/hexo%E4%B8%BB%E9%A2%98shokaX%E9%85%8D%E7%BD%AE%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8C%97&#34;&gt;https://yuan-uyume.github.io/2023/08/26/zhibei/hexo 主题 shokaX 配置踩坑指北&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下面这篇博客是配置 shoka 主题的，他有关 package.json 的是不适用的，但是相关插件的安装还是可以借鉴的&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pigpigletsgo.github.io/hexo/shoka/%E9%85%8D%E7%BD%AEshoka%E4%B8%BB%E9%A2%98/&#34;&gt;https://pigpigletsgo.github.io/hexo/shoka/ 配置 shoka 主题 /&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;代码块渲染&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码块渲染&#34;&gt;#&lt;/a&gt; 代码块渲染&lt;/h2&gt;
+&lt;p&gt;发现代码块还是最基础的，并没有采用 markdown-it 渲染，需要安装  &lt;code&gt;hexo-renderer-multi-markdown-it&lt;/code&gt;  。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; hexo-renderer-multi-markdown-it&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;背景图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景图片&#34;&gt;#&lt;/a&gt; 背景图片&lt;/h2&gt;
+&lt;p&gt;运行  &lt;code&gt;hexo s&lt;/code&gt;  命令在本地看主页等图片是没有问题的但是向 github 上传之后出现了问题，我们可以参照使用文档里添加自己的背景图片&lt;/p&gt;
+&lt;p&gt;这就不得不提到图床了，以下是一个使用 PicGo 构建图床的方法的博客：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/xdnxl/article/details/129466060&#34;&gt;https://blog.csdn.net/xdnxl/article/details/129466060&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://varuxn.github.io/2024/12/21/VMware-WSL/</guid>
             <title>关于 VMware 与 WSL 在 Win11 虚拟化的一些问题</title>
